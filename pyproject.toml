@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytorch-sqrtm"
+version = "0.1.0"
+description = "A PyTorch implementation of matrix square root."
+authors = [
+    { name = "", email = "dddeez@example.com" }
+]
+license = { text = "MIT" }
+dependencies = [
+]
+
+[tool.setuptools]
+package-dir = {"" = "."}
+
+[tool.setuptools.packages.find]
+where = ["."]
